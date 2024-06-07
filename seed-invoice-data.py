@@ -120,5 +120,5 @@ def generate_seed_data(num_entries):
 
 # Number of entries you desire
 number_of_enrtries = input("How many seed data do you want? ")
-seed_data = generate_seed_data(number_of_enrtries)
+seed_data = generate_seed_data(int(number_of_enrtries))
 print(seed_data)
