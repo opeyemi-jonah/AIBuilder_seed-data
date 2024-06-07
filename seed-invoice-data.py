@@ -118,6 +118,7 @@ def generate_random_entry(num_entries):
 def generate_seed_data(num_entries):
     return [generate_random_entry(num_entries) for _ in range(num_entries)]
 
-# Generate 5 entries as an example
-seed_data = generate_seed_data(5)
+# Number of entries you desire
+number_of_enrtries = input("How many seed data do you want? ")
+seed_data = generate_seed_data(number_of_enrtries)
 print(seed_data)
